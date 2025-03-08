@@ -1,2 +1,4 @@
 # 不上传 xxx@yyy.com.db 数据库文件
 *@*.db
+# 不上传 vscode 的配置文件
+.vs/*
