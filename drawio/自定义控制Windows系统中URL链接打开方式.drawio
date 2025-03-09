@@ -1,0 +1,84 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="1434" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="检查注册表信息" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240.5" y="130" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.905;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" edge="1">
+          <mxGeometry width="100" height="100" as="geometry">
+            <mxPoint x="380.5" y="1119.25" as="sourcePoint" />
+            <mxPoint x="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-55" value="obscurities?" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="90" width="98" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="T6vLmdiP4Zb26o_wCwkK-58" target="T6vLmdiP4Zb26o_wCwkK-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-61" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T6vLmdiP4Zb26o_wCwkK-60" vertex="1" connectable="0">
+          <mxGeometry x="-0.1316" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-58" value="当前程序在注册表中&lt;div&gt;是否存在&lt;/div&gt;" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255.5" y="250" width="129" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-59" value="在注册表中进行注册" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="255" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="T6vLmdiP4Zb26o_wCwkK-58" target="T6vLmdiP4Zb26o_wCwkK-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.0000000000002" y="413.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-67" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T6vLmdiP4Zb26o_wCwkK-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.473" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="T6vLmdiP4Zb26o_wCwkK-59" target="T6vLmdiP4Zb26o_wCwkK-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.0000000000002" y="413.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="390" />
+              <mxPoint x="320" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIlHOm3VYtCntSDAV7w0-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6vLmdiP4Zb26o_wCwkK-68" target="zIlHOm3VYtCntSDAV7w0-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6vLmdiP4Zb26o_wCwkK-68" value="告知用户&lt;div&gt;如何设置默认应用&lt;/div&gt;&lt;div&gt;（程序无法直接修改注册表，因为hash校验）&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240.5" y="430" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zIlHOm3VYtCntSDAV7w0-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zIlHOm3VYtCntSDAV7w0-45" target="zIlHOm3VYtCntSDAV7w0-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zIlHOm3VYtCntSDAV7w0-45" value="读取配置规则文件" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="540" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zIlHOm3VYtCntSDAV7w0-49" value="读取链接&lt;div&gt;根据不同的规则，跳转不同浏览器&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="650" width="159" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
